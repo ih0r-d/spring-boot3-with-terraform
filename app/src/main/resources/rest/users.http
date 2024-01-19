@@ -1,0 +1,29 @@
+### environment vars
+@id=402
+
+### Get users
+GET http://localhost:8080/api/users
+Accept: application/json
+
+### Create user
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "username": "JavaClub",
+  "email": "javadev@example.com"
+}
+
+### Get user by id
+GET http://localhost:8080/api/users/{{id}}
+
+### Update user
+###
+
+PATCH http://localhost:8080/api/users?id={{id}}
+Content-Type: application/json
+
+{
+  "username": "JavaNotJS",
+  "email": "java21@java.com"
+}
