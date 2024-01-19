@@ -1,11 +1,11 @@
 package com.demo.simplerestapi.controller;
 
+import com.demo.simplerestapi.model.User;
+import com.demo.simplerestapi.model.UserRequest;
+import com.demo.simplerestapi.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ua.lviv.javaclub.clients.model.User;
-import ua.lviv.javaclub.clients.model.UserRequest;
-import ua.lviv.javaclub.clients.repository.UserRepository;
 
 import java.util.List;
 import java.util.Map;
