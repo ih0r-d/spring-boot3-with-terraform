@@ -1,5 +1,9 @@
 # Rest API using Spring Boot 3
 
+![](https://img.shields.io/badge/Language-Java-informational?style=flat&logo=java&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Terraform-informational?style=flat&logo=java&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Maven-informational?style=flat&logo=apache-maven&logoColor=white&color=2bbc8a)
+
 This repository contains a Spring Boot v3.2.1 application (Java 21) built with Maven, located in the `app` folder, and Terraform infrastructure code in the `terraform` folder.
 
 ## Table of Contents
