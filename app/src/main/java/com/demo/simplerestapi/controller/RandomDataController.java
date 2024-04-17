@@ -1,12 +1,12 @@
 package com.demo.simplerestapi.controller;
 
 
+import com.demo.simplerestapi.model.ApplianceData;
+import com.demo.simplerestapi.repository.RandomDataRepository;
+import com.demo.simplerestapi.service.RandomDataClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ua.lviv.javaclub.clients.model.ApplianceData;
-import ua.lviv.javaclub.clients.repository.RandomDataRepository;
-import ua.lviv.javaclub.clients.service.RandomDataClient;
 
 import java.util.List;
 import java.util.Map;

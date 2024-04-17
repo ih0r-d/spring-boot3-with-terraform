@@ -1,10 +1,10 @@
 package com.demo.simplerestapi.repository;
 
+import com.demo.simplerestapi.model.ApplianceData;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Repository;
-import ua.lviv.javaclub.clients.model.ApplianceData;
 
 import java.util.List;
 import java.util.Optional;

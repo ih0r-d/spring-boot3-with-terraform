@@ -1,9 +1,9 @@
 package com.demo.simplerestapi.service;
 
+import com.demo.simplerestapi.model.ApplianceData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
-import ua.lviv.javaclub.clients.model.ApplianceData;
 
 @Component
 @RequiredArgsConstructor
